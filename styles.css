@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(204, 144, 121);
+}
+
+header {
+  background: rgb(204, 144, 121);
+  color: bisque;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: bisque;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(95, 51, 34);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(204, 144, 121);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 25%;
+  background: rgb(226, 182, 164);
+  color: rgb(95, 51, 34);
+  padding: 20px;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.content {
+  width: 79%;
+  border-radius: 10px;
+  background: rgb(226, 182, 164);
+  color: rgb(95, 51, 34);
+  margin: 2px;
+  padding: 30px;
+}
+
+.halaman {
+  background: bisque;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.halaman ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.halaman ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(95, 51, 34);
+}
+
+.btn {
+  background-color: rgb(226, 182, 164);
+  border: none;
+  padding: 10px 50px;
+  margin: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(204, 144, 121);
+}
+
+footer {
+  background: bisque;
+  color: rgb(95, 51, 34);
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#formWA {
+  background-color: bisque;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+#formWA label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+#formWA input,
+#formWA textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#formWA input:focus,
+#formWA textarea:focus {
+  border-color: #25d366;
+  outline: none;
+  box-shadow: 0 0 4px rgba(37, 211, 102, 0.3);
+}
+
+#formWA button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#formWA button:hover {
+  background-color: #1ebe5d;
+}
+
+.card {
+  background: bisque;
+}
+
+.carousel-caption {
+  background-color: #333333a8;
+  border-radius: 6px;
+}
+
+.carousel-inner {
+  border-radius: 8px;
+}
